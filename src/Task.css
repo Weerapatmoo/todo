@@ -1,0 +1,47 @@
+li{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 200px;
+    margin: 0 16px 16px 0;
+    box-shadow: 0 0 6px 0 rgba(0, 0,0, 15);
+    border-radius: 4px;
+
+}
+.id{
+    position: absolute;
+    right: 4px;
+    top: 2px;
+}
+.name{
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+   
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.button{
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    
+}
+.green{
+    background-color: lightgreen;
+
+
+}
+.red{
+    background-color: lightcoral;
+}
